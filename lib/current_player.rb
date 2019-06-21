@@ -10,6 +10,6 @@ def turn_count (board)
 end
 
 def current_player(board)
-  m = turn_count(board)
-  return m.even? ? "X" : "O"
+  mv = turn_count(board)
+  return mv.even? ? "X" : "O"
 end
