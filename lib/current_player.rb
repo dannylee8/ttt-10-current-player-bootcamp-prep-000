@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   moves = turn_count(board)
-  return (moves.even? == true) ? return "X" : return "O"
+  return (moves.even? == true) ? "X" : "O"
 end
 
     
